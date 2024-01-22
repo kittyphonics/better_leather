@@ -1,0 +1,10 @@
+[06:27:16] [ERROR] [FabricLoader/]: Uncaught exception in thread "main"
+java.lang.RuntimeException: Game jar C:\Users\deird\OneDrive\Desktop\Pythia's Modding\better leather 2.0\.gradle\loom-cache\minecraftMaven\net\minecraft\minecraft-common-c713afbca6\1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2\minecraft-common-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar (C:\Users\deird\OneDrive\Desktop\Pythia's Modding\better leather 2.0\.gradle\loom-cache\minecraftMaven\net\minecraft\minecraft-common-c713afbca6\1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2\minecraft-common-c713afbca6-1.19.2-net.fabricmc.yarn.1_19_2.1.19.2+build.28-v2.jar) configured through fabric.gameJarPath system property doesn't exist
+	at net.fabricmc.loader.impl.game.GameProviderHelper.getGameJar(GameProviderHelper.java:72)
+	at net.fabricmc.loader.impl.game.GameProviderHelper.getCommonGameJar(GameProviderHelper.java:60)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.locateGame(MinecraftGameProvider.java:175)
+	at net.fabricmc.loader.impl.launch.knot.Knot.createGameProvider(Knot.java:175)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:130)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)

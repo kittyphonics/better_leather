@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "experience": 0,
+    "cookingtime": 200,
+    "ingredient": {
+      "item": "better_leather:patchwork_flesh"
+    },
+    "result": "minecraft:leather"
+  }
